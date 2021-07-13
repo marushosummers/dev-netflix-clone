@@ -30,8 +30,6 @@ export const Row = ({ title, fetchUrl, isLargeRow }: Props) => {
     fetchData();
   }, [fetchUrl]);
 
-  console.log(movies);
-
   const base_url = "https://image.tmdb.org/t/p/original";
 
   return (
